@@ -1,0 +1,222 @@
+.window
+{
+    display: flex;
+    flex-direction: column;
+    /* height: 720px; */
+    height: 100vh;;
+    /* height: 100%; */
+    width: 390px;
+    border-radius: 10px;
+    background-color: rgb(31,33,39,255);
+}
+.head-frag
+{
+    width: 100%;
+    height: 25px;
+    position: inherit;
+    background: linear-gradient(to bottom,  rgb(27,42,63), rgb(28,35,44));
+}
+.me
+{
+    position: inherit;
+    margin-left: 10px;
+    margin-top: 0px;
+    display: flex;
+    height: 60px;
+    gap: 10px;
+    width: 100%;
+
+}
+.line
+{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(42, 50, 63);
+}
+
+.twoA
+{
+    display: flex;
+    width: 45px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.twoA p{
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+.header-steam
+{   
+    display: flex;
+    flex-direction: column;
+    height: 155px;
+    width: 100%;
+    background-color: rgb(28,35,44);
+}
+.east-name p {
+    margin: 0;
+}
+
+.east-name p:nth-child(1)
+{
+    font-weight: 700;
+    font-size: large;
+    color:rgb(96,180,216);
+}
+.east-name p:nth-child(2)
+{
+    font-weight: 400;
+    font-size: smaller;
+    color: rgb(64,119,143);
+}
+.friend-line
+{   
+    display: flex;
+    place-items: center;
+    gap: 8px;
+    background-color: rgb(67,73,83,255);
+    height: 30px;
+    box-shadow: 0 10px 20px 0 rgb(20,21,24,255);
+}
+
+.friend-line div:nth-child(2)
+{
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+    margin-right: 10px;
+    width: 100%;
+    color: rgb(120,138,146,255);
+    font-weight: 100;
+}
+
+.icon-steam i:hover
+{
+    cursor: pointer;
+}
+
+/* .icon-steam
+{
+    display: flex;
+    gap: 15px;
+    justify-self: end;
+    color: rgb(120,138,146,255);
+    font-weight: 100;
+} */
+
+.friend-line p{
+    margin-left: 15px;
+    color: rgb(183,204,213,255);
+    font-weight: 650;
+    font-size: small;
+}
+.east-name
+{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 1.1;
+    /* align-items:self-start;
+    place-items: center; */
+    
+}
+.east-side-profile
+{
+    height: 45px;
+}
+.twoA-profile
+{
+    height: 45px;
+}
+
+.friend-icon
+{
+    height: 30px;
+}
+
+.over
+{
+    overflow:scroll;
+}
+
+.friends-nick-and-games{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 1.1;
+}
+
+.friends-nick-and-games p
+{
+    margin: 0;
+}
+
+.friends-nick-and-games p:nth-child(1)
+{
+    font-weight: 600;
+    line-height: 1;
+    font-size:small;
+    color: rgb(226,254,193,255);
+}
+.friends-nick-and-games p:nth-child(2)
+{
+    font-weight: 400;
+    font-size: smaller;
+    color: rgb(145,194,87,255);
+}
+
+.friends-nick-and-games p:nth-child(3)
+{
+    font-weight: 300;
+    line-height: 0.4;
+    font-size: smaller;
+    color: rgba(95,124,58,255);
+}
+
+.profile
+{
+    margin-left: 10px;
+    place-items: center;
+    display: flex;
+    height: 45px;
+    gap: 10px;
+    width: 90%;   
+}
+.in-game
+{
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.in-game span{
+    color: rgba(103,102,102,255);
+}
+
+.friends-nick-online
+{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 1.1;
+}
+.friends-nick-online p
+{
+    margin: 0;
+}
+
+.friends-nick-online p:nth-child(1)
+{
+    font-weight: 600;
+    font-size:small;
+    color: rgba(105,198,234,255);
+}
+.friends-nick-online p:nth-child(2)
+{
+    font-weight: 400;
+    font-size: smaller;
+    color: rgba(76,145,172,255);
+}
